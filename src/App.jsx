@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import Layout from "./components/Layout";
 import News from "./pages/News";
 import Tasks from "./pages/Tasks";
+import Team from "./pages/Team";
 
 function ProtectedRoute({ user, children }) {
   if (!user) return <Navigate to="/" replace />;
@@ -54,6 +55,12 @@ export default function App() {
             <Tasks />
           </ProtectedRoute>
         } />
+        <Route path="/team" element={
+          <ProtectedRoute user={user}>
+            <Team />
+          </ProtectedRoute>
+        } />
+
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
