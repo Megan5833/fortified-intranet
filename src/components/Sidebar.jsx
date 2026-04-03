@@ -32,8 +32,8 @@ const nav = [
     section: "Main",
     items: [
       { label: "Dashboard", path: "/dashboard", icon: { rects: [{ x: 2, y: 2, width: 5, height: 5, rx: 1.5 }, { x: 9, y: 2, width: 5, height: 5, rx: 1.5 }, { x: 2, y: 9, width: 5, height: 5, rx: 1.5 }, { x: 9, y: 9, width: 5, height: 5, rx: 1.5 }] } },
-      { label: "News & announcements", path: "/news", badge: "2", badgeColor: "red", icon: { d: "M2 4h12M2 8h9M2 12h6" } },
-      { label: "Tasks & meetings", path: "/tasks", badge: "5", badgeColor: "gold", icon: { d: "M3 4h10M3 8h7M3 12h5" } },
+      { label: "Announcements", path: "/news", badge: "2", badgeColor: "red", icon: { d: "M2 4h12M2 8h9M2 12h6" } },
+      { label: "Tasks & Meetings", path: "/tasks", badge: "5", badgeColor: "gold", icon: { d: "M3 4h10M3 8h7M3 12h5" } },
       { label: "Calendar", path: "/calendar", icon: { rect: { x: 2, y: 3, width: 12, height: 11, rx: 2 }, d: "M5 2v2M11 2v2M2 7h12" } },
     ],
   },
@@ -49,16 +49,16 @@ const nav = [
     section: "People",
     items: [
       { label: "Team directory", path: "/team", icon: { d: "M2 6a3 3 0 016 0M8 6a3 3 0 016 0M1 13.5c0-2.5 2-4 4-4M8 13.5c0-2.5 2-4 4-4" } },
-      { label: "Accountability chart", path: "/accountability", icon: { d: "M8 2v4M8 6H5M8 6h3M5 6v4M11 6v4", rects: [{ x: 3, y: 10, width: 4, height: 3, rx: 1 }, { x: 9, y: 10, width: 4, height: 3, rx: 1 }, { x: 6, y: 1, width: 4, height: 3, rx: 1 }] } },
+      { label: "Org chart", path: "/accountability", icon: { d: "M8 2v4M8 6H5M8 6h3M5 6v4M11 6v4", rects: [{ x: 3, y: 10, width: 4, height: 3, rx: 1 }, { x: 9, y: 10, width: 4, height: 3, rx: 1 }, { x: 6, y: 1, width: 4, height: 3, rx: 1 }] } },
       { label: "Performance & KPIs", path: "/performance", icon: { d: "M2 12l3-4 3 2 3-5 3 3" } },
-      { label: "1:1s & reviews", path: "/reviews", icon: { d: "M2 4h12v7a1 1 0 01-1 1H3a1 1 0 01-1-1V4zM5 8h6M5 10h3" } },
+      { label: "1:1s & Reviews", path: "/reviews", icon: { d: "M2 4h12v7a1 1 0 01-1 1H3a1 1 0 01-1-1V4zM5 8h6M5 10h3" } },
     ],
   },
   {
     section: "Tools",
     items: [
-      { label: "AI tools hub", path: "/tools", icon: { d: "M3 8h2l2-5 2 10 2-5h2" } },
-      { label: "Ask Fortified AI", path: "/assistant", icon: { circle: { cx: 8, cy: 8, r: 6 }, d: "M5.5 8.5C5.5 7 6.5 6 8 6s2.5 1 2.5 2.5-1 2.5-2.5 2.5M8 11v.5" } },
+      { label: "AI tools", path: "/tools", icon: { d: "M3 8h2l2-5 2 10 2-5h2" } },
+      { label: "Ask Fortified", path: "/assistant", icon: { circle: { cx: 8, cy: 8, r: 6 }, d: "M5.5 8.5C5.5 7 6.5 6 8 6s2.5 1 2.5 2.5-1 2.5-2.5 2.5M8 11v.5" } },
       { label: "Inventory", path: "/inventory", icon: { d: "M4 13V7l4-5 4 5v6H4z", rect: { x: 6, y: 10, width: 4, height: 3, rx: 0.5 } } },
       { label: "Tickets", path: "/tickets", icon: { circle: { cx: 8, cy: 8, r: 6 }, d: "M8 5v3M8 10v.5" } },
     ],
